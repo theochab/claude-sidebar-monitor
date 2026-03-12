@@ -1,0 +1,108 @@
+{
+  "extName": { "message": "Claude Sidebar Monitor" },
+  "extDescription": { "message": "Monitor your Claude AI usage limits at a glance with an in-page sidebar widget." },
+
+  "popupTitle": { "message": "Claude Sidebar" },
+  "popupRefreshTitle": { "message": "Refresh" },
+  "popupRefreshAria": { "message": "Refresh data" },
+  "popupOpenTitle": { "message": "Open usage page" },
+  "popupOpenAria": { "message": "Open Claude usage page" },
+  "loading": { "message": "Loading\u2026" },
+
+  "summary": { "message": "Summary" },
+  "session": { "message": "Session" },
+  "weekly": { "message": "Weekly" },
+  "specificLimits": { "message": "Specific limits" },
+  "sonnetOnly": { "message": "Sonnet only" },
+  "opusOnly": { "message": "Opus only" },
+  "oauthApps": { "message": "OAuth Apps" },
+  "cowork": { "message": "Cowork" },
+  "extraUsage": { "message": "Extra usage" },
+  "credits": { "message": "Credits" },
+  "planPrefix": { "message": "$name$ Plan", "placeholders": { "name": { "content": "$1" } } },
+  "limit": {
+    "message": "Limit: $val$",
+    "placeholders": { "val": { "content": "$1" } }
+  },
+  "updatedAt": {
+    "message": "upd $time$",
+    "placeholders": { "time": { "content": "$1" } }
+  },
+
+  "resetPrefix": { "message": "Reset" },
+  "resetImminent": { "message": "imminent" },
+  "resetImminentLong": { "message": "imminent" },
+  "resetInHM": {
+    "message": "in $hours$ h $mins$ min",
+    "placeholders": { "hours": { "content": "$1" }, "mins": { "content": "$2" } }
+  },
+  "resetInH": {
+    "message": "in $hours$ h",
+    "placeholders": { "hours": { "content": "$1" } }
+  },
+  "resetInMin": {
+    "message": "in $mins$ min",
+    "placeholders": { "mins": { "content": "$1" } }
+  },
+  "resetShortHM": {
+    "message": "$hours$h$mins$",
+    "placeholders": { "hours": { "content": "$1" }, "mins": { "content": "$2" } }
+  },
+  "resetShortH": {
+    "message": "$hours$h",
+    "placeholders": { "hours": { "content": "$1" } }
+  },
+  "resetShortMin": {
+    "message": "$mins$min",
+    "placeholders": { "mins": { "content": "$1" } }
+  },
+
+  "dayMon": { "message": "Mon" },
+  "dayTue": { "message": "Tue" },
+  "dayWed": { "message": "Wed" },
+  "dayThu": { "message": "Thu" },
+  "dayFri": { "message": "Fri" },
+  "daySat": { "message": "Sat" },
+  "daySun": { "message": "Sun" },
+
+  "errorTitle": { "message": "Unable to retrieve usage. Make sure you are logged in to claude.ai." },
+  "errorRetry": { "message": "Retry" },
+  "noData": { "message": "Usage data not available." },
+  "noDataHint": { "message": "Click \u2197 to view usage on claude.ai" },
+
+  "healthApiChanged": { "message": "Claude Sidebar Monitor: the API format has changed. Extension needs updating." },
+  "healthApiUnreachable": { "message": "Claude Sidebar Monitor: unable to reach the Claude API." },
+  "healthSidebarNotFound": { "message": "Claude Sidebar Monitor: sidebar not found, widget cannot be displayed." },
+  "healthWidgetLost": { "message": "Claude Sidebar Monitor: the widget has disappeared from the sidebar." },
+
+  "healthPopupApiChanged": { "message": "The Claude API format has changed. The extension needs updating." },
+  "healthPopupApiUnreachable": { "message": "Unable to reach the Claude API for several cycles." },
+  "healthPopupSidebarNotFound": { "message": "The Claude sidebar was not found. The widget will not display." },
+  "healthPopupWidgetLost": { "message": "The widget has disappeared and could not be re-injected." },
+  "healthPopupUnknown": {
+    "message": "Issue detected: $status$",
+    "placeholders": { "status": { "content": "$1" } }
+  },
+
+  "closeBtnAria": { "message": "Close" },
+  "widgetAria": { "message": "Claude Sidebar" },
+
+  "freePlanWidget": { "message": "Free" },
+  "freePlanPopup": { "message": "Usage tracking is not available on the free plan. Upgrade to Pro or Max to see your session and weekly limits." },
+
+  "onboardingSubtitle": { "message": "Never get caught off guard by usage limits again." },
+  "onboardingStep1a": { "message": "A " },
+  "onboardingStep1b": { "message": "widget" },
+  "onboardingStep1c": { "message": " appears in the Claude sidebar showing your usage at a glance. Visible only on claude.ai." },
+  "onboardingStep2a": { "message": "The " },
+  "onboardingStep2b": { "message": "popup" },
+  "onboardingStep2c": { "message": " (click the extension icon) gives you detailed limits and your plan info. Works from any website, anytime." },
+  "onboardingStep3a": { "message": "Click the " },
+  "onboardingStep3b": { "message": "sidebar widget" },
+  "onboardingStep3c": { "message": " to jump straight to the full usage page." },
+  "onboardingCta": { "message": "Open Claude" },
+  "onboardingFooter": { "message": "Everything stays on your device. No tracking, no external servers." },
+
+  "reportIssue": { "message": "Report an issue" },
+  "credit": { "message": "created by theo_cs" }
+}

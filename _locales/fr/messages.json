@@ -1,0 +1,108 @@
+{
+  "extName": { "message": "Claude Sidebar Monitor" },
+  "extDescription": { "message": "Surveille tes limites d'utilisation Claude en un coup d'\u0153il avec un widget int\u00e9gr\u00e9 dans la barre lat\u00e9rale." },
+
+  "popupTitle": { "message": "Utilisation Claude" },
+  "popupRefreshTitle": { "message": "Rafra\u00eechir" },
+  "popupRefreshAria": { "message": "Rafra\u00eechir les donn\u00e9es" },
+  "popupOpenTitle": { "message": "Ouvrir la page d'utilisation" },
+  "popupOpenAria": { "message": "Ouvrir la page d'utilisation Claude" },
+  "loading": { "message": "Chargement\u2026" },
+
+  "summary": { "message": "R\u00e9sum\u00e9" },
+  "session": { "message": "Session" },
+  "weekly": { "message": "Hebdo" },
+  "specificLimits": { "message": "Limites sp\u00e9cifiques" },
+  "sonnetOnly": { "message": "Sonnet uniquement" },
+  "opusOnly": { "message": "Opus uniquement" },
+  "oauthApps": { "message": "Apps OAuth" },
+  "cowork": { "message": "Cowork" },
+  "extraUsage": { "message": "Utilisation suppl\u00e9mentaire" },
+  "credits": { "message": "Cr\u00e9dits" },
+  "planPrefix": { "message": "Plan $name$", "placeholders": { "name": { "content": "$1" } } },
+  "limit": {
+    "message": "Limite : $val$",
+    "placeholders": { "val": { "content": "$1" } }
+  },
+  "updatedAt": {
+    "message": "m\u00e0j $time$",
+    "placeholders": { "time": { "content": "$1" } }
+  },
+
+  "resetPrefix": { "message": "R\u00e9init." },
+  "resetImminent": { "message": "imminente" },
+  "resetImminentLong": { "message": "imminente" },
+  "resetInHM": {
+    "message": "dans $hours$ h $mins$ min",
+    "placeholders": { "hours": { "content": "$1" }, "mins": { "content": "$2" } }
+  },
+  "resetInH": {
+    "message": "dans $hours$ h",
+    "placeholders": { "hours": { "content": "$1" } }
+  },
+  "resetInMin": {
+    "message": "dans $mins$ min",
+    "placeholders": { "mins": { "content": "$1" } }
+  },
+  "resetShortHM": {
+    "message": "$hours$h$mins$",
+    "placeholders": { "hours": { "content": "$1" }, "mins": { "content": "$2" } }
+  },
+  "resetShortH": {
+    "message": "$hours$h",
+    "placeholders": { "hours": { "content": "$1" } }
+  },
+  "resetShortMin": {
+    "message": "$mins$min",
+    "placeholders": { "mins": { "content": "$1" } }
+  },
+
+  "dayMon": { "message": "lun" },
+  "dayTue": { "message": "mar" },
+  "dayWed": { "message": "mer" },
+  "dayThu": { "message": "jeu" },
+  "dayFri": { "message": "ven" },
+  "daySat": { "message": "sam" },
+  "daySun": { "message": "dim" },
+
+  "errorTitle": { "message": "Impossible de r\u00e9cup\u00e9rer l'utilisation. V\u00e9rifie que tu es connect\u00e9 \u00e0 claude.ai." },
+  "errorRetry": { "message": "R\u00e9essayer" },
+  "noData": { "message": "Donn\u00e9es d'utilisation non disponibles." },
+  "noDataHint": { "message": "Clique sur \u2197 pour voir l'utilisation sur claude.ai" },
+
+  "healthApiChanged": { "message": "Claude Sidebar Monitor : l'API a chang\u00e9 de format. Extension \u00e0 mettre \u00e0 jour." },
+  "healthApiUnreachable": { "message": "Claude Sidebar Monitor : impossible de joindre l'API Claude." },
+  "healthSidebarNotFound": { "message": "Claude Sidebar Monitor : barre lat\u00e9rale introuvable, le widget ne peut pas s'afficher." },
+  "healthWidgetLost": { "message": "Claude Sidebar Monitor : le widget a disparu de la barre lat\u00e9rale." },
+
+  "healthPopupApiChanged": { "message": "L'API Claude a chang\u00e9 de format. L'extension doit \u00eatre mise \u00e0 jour." },
+  "healthPopupApiUnreachable": { "message": "Impossible de joindre l'API Claude depuis plusieurs cycles." },
+  "healthPopupSidebarNotFound": { "message": "La barre lat\u00e9rale Claude n'a pas \u00e9t\u00e9 trouv\u00e9e. Le widget ne s'affichera pas." },
+  "healthPopupWidgetLost": { "message": "Le widget a disparu et n'a pas pu \u00eatre r\u00e9affich\u00e9." },
+  "healthPopupUnknown": {
+    "message": "Probl\u00e8me d\u00e9tect\u00e9 : $status$",
+    "placeholders": { "status": { "content": "$1" } }
+  },
+
+  "closeBtnAria": { "message": "Fermer" },
+  "widgetAria": { "message": "Utilisation Claude" },
+
+  "freePlanWidget": { "message": "Gratuit" },
+  "freePlanPopup": { "message": "Le suivi d'utilisation n'est pas disponible avec le plan gratuit. Passe au plan Pro ou Max pour voir tes limites de session et hebdomadaires." },
+
+  "onboardingSubtitle": { "message": "Ne te fais plus jamais surprendre par les limites d'utilisation." },
+  "onboardingStep1a": { "message": "Un " },
+  "onboardingStep1b": { "message": "widget" },
+  "onboardingStep1c": { "message": " appara\u00eet dans la barre lat\u00e9rale Claude avec ton utilisation en un coup d'\u0153il. Visible uniquement sur claude.ai." },
+  "onboardingStep2a": { "message": "La " },
+  "onboardingStep2b": { "message": "popup" },
+  "onboardingStep2c": { "message": " (clique sur l'ic\u00f4ne de l'extension) affiche les limites d\u00e9taill\u00e9es et ton plan. Fonctionne depuis n'importe quel site, \u00e0 tout moment." },
+  "onboardingStep3a": { "message": "Clique sur le " },
+  "onboardingStep3b": { "message": "widget de la barre lat\u00e9rale" },
+  "onboardingStep3c": { "message": " pour acc\u00e9der directement \u00e0 la page d'utilisation compl\u00e8te." },
+  "onboardingCta": { "message": "Ouvrir Claude" },
+  "onboardingFooter": { "message": "Tout reste sur ton appareil. Aucun tracking, aucun serveur externe." },
+
+  "reportIssue": { "message": "Signaler un probl\u00e8me" },
+  "credit": { "message": "cr\u00e9\u00e9 par theo_cs" }
+}

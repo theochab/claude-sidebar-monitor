@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / package
+*.zip
+*.crx
+*.pem
+
+# Node (if ever used)
+node_modules/
+
+# Logs
+*.log
